@@ -1,0 +1,26 @@
+.guestbook{
+    background-color: #2F2F2F;
+
+}
+.mb-80{
+    margin-bottom: 80px;
+}
+.text-primary {
+    color: #E5E5E5  !important;
+  }
+  .card-form> .scroll { 
+ 
+    overflow-y: scroll;  
+    height: 500px;
+  } 
+  .card-form{
+      background-color: black;
+      padding: 20px;
+  }
+
+  .btn-outline-light{
+    color: white;
+    border-color: #01B169;
+    background-color: #01B169;
+    margin: auto;
+  }

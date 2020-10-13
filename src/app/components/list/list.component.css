@@ -1,0 +1,60 @@
+.list{
+    background-color: #EDEDED;
+}
+.check-list{
+    background-color: #E5E5E5;
+    text-align: left;
+    font-weight: 800;
+}
+.check-list i{
+    color:green;
+    margin-right: 10px;
+    text-align: left;
+    
+}
+.list-group {
+
+    padding: 10px !important;
+}
+.style-col-1{
+    border-top: 3px solid #01B169;
+    background: #E5E5E5;
+
+}
+.style-col-2{
+    border-top: 3px solid #3C3C3C;
+    background: #E5E5E5;
+}
+.style-col-3{
+    border-top: 3px solid #E84C3D;
+    background: #E5E5E5;
+
+}
+.panel{
+    padding: 20px 0 45px 0;
+}
+.btn-outline-light-1{
+    color: white;
+    border-color: #01B169;
+    background-color: #01B169;
+ 
+  }
+
+  .btn-outline-light-2 {
+    color: white;
+    border-color: #3C3C3C;
+    background-color: #3C3C3C;
+ 
+  }
+  .btn-outline-light-3 {
+    color: white;
+    border-color: #E84C3D;
+    background-color: #E84C3D;
+ 
+  }
+.transparent{
+    position: absolute;
+    z-index: 999;
+    background-color: grey;
+    height: 100%;
+}

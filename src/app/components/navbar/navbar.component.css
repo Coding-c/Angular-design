@@ -1,0 +1,81 @@
+.navbar-brand
+{
+  position:absolute;
+  left:calc(50% - 30px);
+  top:8px;
+}
+
+
+  .socials div{
+    display: inline-block;
+  }
+  .fa.fa-facebook, .fa.fa-linkedin, .fa.fa-google-plus, .fa.fa-youtube, .fa.fa-twitter{
+    color: black;
+    font-size: 12px;
+    padding-top: 4px;
+    background-color: #525151;
+    border-radius: 100px;
+    width:20px;
+    height:20px;
+    
+  }
+  
+  #hexagon {
+	width: 40px;
+	height: 25px;
+	background: #000;
+	position: relative;
+
+    margin-left:10px;
+   text-align: center;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+  #hexagon:before {
+      content: "";
+      position: absolute;
+      top: -25px;
+      left: 0;
+      width: 0;
+      height: 25px;
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+      border-bottom: 9px solid #000;
+
+      -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  #hexagon:after {
+      content: "";
+      position: absolute;
+      bottom: -24px;
+      left: 0;
+      width: 0;
+    
+      height: 24px;
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+      border-top: 9px solid #000;
+      -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #hexagon:hover{
+    background: red;
+  }
+  
+  #hexagon:hover:after{
+    border-top: 9px solid red;
+  }
+  #hexagon:hover:before{
+    border-bottom: 9px solid red;
+  }

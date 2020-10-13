@@ -1,0 +1,184 @@
+.text-secondary {
+    color: #CBCBCB  !important;
+  }
+
+  .text-uppercase {
+    text-transform: uppercase !important;
+  }
+  .text-center {
+    text-align: center !important;
+  }
+  .mb-80{
+      margin-bottom: 80px;
+  }
+  .font-weight-light {
+    font-weight: 300 !important;
+    color: #CBCBCB ;
+  }
+  .page-small-heading{
+    font-weight: 600 !important;
+    color: #3C3C3C ;
+  }
+  .socials div{
+    display: inline-block;
+    margin-top: 100px;
+  }
+  .fa.fa-desktop{
+   
+    color: white;
+    font-size: 66px;
+    padding-top: 17px;
+   
+    
+  }
+  
+  #hexagon1 {
+    width: 205px;
+    height: 98px;
+	background: #01B169;
+	position: relative; 
+    left: 50%;
+    transform: translateX(-50%);
+  
+    text-align: center;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+  #hexagon1:before {
+      content: "";
+      position: absolute;
+      top: -38px;
+      left: 0;
+      width: 0;
+      height: 25px;
+      border-left: 103px solid transparent;
+      border-right: 103px solid transparent;
+      border-bottom: 38px solid #01B169;
+
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  #hexagon1:after {
+      content: "";
+      position: absolute;
+      bottom: -38px;
+      left: 0;
+      width: 0;
+    
+      height: 24px;
+      border-left: 103px solid transparent;
+      border-right: 103px solid transparent;
+      border-top: 38px solid #01B169;
+      -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #hexagon2 {
+    width: 205px;
+    height: 98px;
+	background: #3C3C3C;
+	position: relative; 
+    left: 50%;
+    transform: translateX(-50%);
+  
+    text-align: center;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+  #hexagon2:before {
+      content: "";
+      position: absolute;
+      top: -38px;
+      left: 0;
+      width: 0;
+      height: 25px;
+      border-left: 103px solid transparent;
+      border-right: 103px solid transparent;
+      border-bottom: 38px solid #3C3C3C;
+
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  #hexagon2:after {
+      content: "";
+      position: absolute;
+      bottom: -38px;
+      left: 0;
+      width: 0;
+    
+      height: 24px;
+      border-left: 103px solid transparent;
+      border-right: 103px solid transparent;
+      border-top: 38px solid #3C3C3C;
+      -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  #hexagon3 {
+    width: 205px;
+    height: 98px;
+	background: #E84C3D;
+	position: relative; 
+    left: 50%;
+    transform: translateX(-50%);
+
+    text-align: center;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+  #hexagon3:before {
+      content: "";
+      position: absolute;
+      top: -38px;
+     
+      left: 0;
+      width: 0;
+      height: 25px;
+      border-left: 103px solid transparent;
+      border-right: 103px solid transparent;
+      border-bottom: 38px solid #E84C3D;
+
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  #hexagon3:after {
+      content: "";
+      position: absolute;
+      bottom: -38px;
+      left: 0;
+      width: 0;
+    
+      height: 24px;
+      border-left: 103px solid transparent;
+      border-right: 103px solid transparent;
+      border-top: 38px solid #E84C3D;
+      -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  

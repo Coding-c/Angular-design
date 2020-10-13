@@ -1,0 +1,47 @@
+
+<section class="page-section guestbook" id="guestbook" #guestbook>
+    <div class="container">
+        <h2 class="page-section-heading text-center text-uppercase text-primary mb-80">GUESTBOOK</h2>
+        
+        <div class="row">
+            <div class="col-md-6 col-lg-6">
+                <div class="card card-form">
+                    <div class="card-body">
+                      <!-- FORM TO ADD TASKS -->
+                      <form (submit)="addGuests(name, subject, message)">
+                        <div class="form-group">
+                          <input type="text" placeholder="Name" #name class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject" #subject class="form-control">
+                          </div>
+                        <div class="form-group">
+                          <textarea #message cols="30" rows="10" class="form-control" placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-xl btn-outline-light">Send</button>
+                        
+                      </form>
+                    </div>
+                  </div>
+            </div>
+  
+            <div class="col-md-6 col-lg-6">
+                <div class="vertical-scrollable">
+                    <div class="card-form">
+                   <div class="scroll">
+                                <div class="card" *ngFor="let guest of guests" style="margin-bottom: 5px;">
+                                    
+                                    <div class="card-body">
+                                      <h5 class="card-title">{{ guest.name }}</h5>
+                                      <p class="card-text">{{guest.message}}</p>
+                                    </div>
+                                  </div>
+                    </div> </div>
+                </div>
+                 
+            </div>
+          
+          
+        </div>
+    </div>
+</section>
